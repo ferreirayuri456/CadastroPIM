@@ -11,7 +11,7 @@ namespace Cadastro.Service
 
         public string getConnectionString()
         {
-            connectionString = ConfigurationManager.ConnectionStrings["SimpleCRUD.Properties.Setting.crudConnectionString"].ConnectionString;
+            connectionString = ConfigurationManager.ConnectionStrings["cadastroPessoas.Properties.Settings.cadastroConnectionString"].ConnectionString;
             return connectionString;
         }
 

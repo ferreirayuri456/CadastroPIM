@@ -26,11 +26,13 @@ namespace cadastroPessoas.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;user id=root;persistsecurityinfo=True;database=cadastro")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=localhost;User Id=root;password=;persistsecurityinfo=True;database=cadastro")]
         public string cadastroConnectionString {
             get {
                 return ((string)(this["cadastroConnectionString"]));
             }
         }
+        
+    
     }
 }

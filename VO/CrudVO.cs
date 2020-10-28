@@ -12,9 +12,9 @@ namespace cadastroPessoas.VO
     {
         private int _id;
         private String _nome;
-        private int _cpf;
-        private Endereco _endereco;
-        private Telefone _telefone;
+        private String _cpf;
+        private String _endereco;
+        private String _telefone;
        private Cadastro.Dao.PessoaDao dao;
 
         public CrudVO()
@@ -34,19 +34,19 @@ namespace cadastroPessoas.VO
             set { _nome = value; }
         }
 
-        public int cpf
+        public String cpf
         {
             get { return _cpf; }
             set { _cpf = value; }
         }
 
-        public Endereco endereco
+        public String endereco
         {
             get { return _endereco; }
             set { _endereco = value; }
         }
 
-        public Telefone telefone
+        public String telefone
         {
             get { return _telefone; }
             set { _telefone = value; }
@@ -70,11 +70,7 @@ namespace cadastroPessoas.VO
             dao.Exclua (cpf);
         }
 
-        public void Consulta()
-        {
-            dao = new PessoaDao();
-            dao.Consulte(cpf);
-        }
+ 
 
     }
 }

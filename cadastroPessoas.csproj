@@ -92,10 +92,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="cadastroDataSet.Designer.cs">
+    <Compile Include="cadastroDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>cadastroDataSet.xsd</DependentUpon>
+      <DependentUpon>cadastroDataSet2.xsd</DependentUpon>
     </Compile>
     <Compile Include="Dao\PessoaDao.cs" />
     <Compile Include="Form1.cs">
@@ -124,16 +124,16 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="cadastroDataSet.xsc">
-      <DependentUpon>cadastroDataSet.xsd</DependentUpon>
+    <None Include="cadastroDataSet2.xsc">
+      <DependentUpon>cadastroDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="cadastroDataSet.xsd">
+    <None Include="cadastroDataSet2.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>cadastroDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>cadastroDataSet2.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="cadastroDataSet.xss">
-      <DependentUpon>cadastroDataSet.xsd</DependentUpon>
+    <None Include="cadastroDataSet2.xss">
+      <DependentUpon>cadastroDataSet2.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
